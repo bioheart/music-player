@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Gabarito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cute-text-regular {
+    font-family: "Cute Text", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bad-script-regular {
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.music-player {
+    margin: auto;
+    margin-top: 30px;
+    background-color: var(--light-color);
+    width: 40%;
+    max-width: var(--width);
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+    overflow: hidden;
+}
+
+/* From Uiverse.io by Gianluks90 */
+.loader {
+    height: 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    margin-bottom: 10px;
+}
+
+.bar {
+    height: 5px;
+    width: 12px;
+    animation-duration: 0.45s;
+    animation-name: changeHeight;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.red {
+    background-color: #E50000;
+    box-shadow: 1px 1px 10px #E50000;
+    animation-delay: 0.10s;
+}
+
+.orange {
+    background-color: #FF8D00;
+    box-shadow: 1px 1px 10px #FF8D00;
+    animation-delay: 0.20s;
+}
+
+.yellow {
+    background-color: #FFEE00;
+    box-shadow: 1px 1px 10px #FFEE00;
+    animation-delay: 0.25s;
+}
+
+.green {
+    background-color: #008121;
+    box-shadow: 1px 1px 10px #008121;
+    animation-delay: 0.30s;
+}
+
+.blue {
+    background-color: #004CFF;
+    box-shadow: 1px 1px 10px #004CFF;
+    animation-delay: 0.35s;
+}
+
+.violet {
+    background-color: #760188;
+    box-shadow: 1px 1px 10px #760188;
+    animation-delay: 0.40s;
+}
+
+@keyframes changeHeight {
+    from {
+        height: 5px;
+    }
+
+    to {
+        height: 40px;
+    }
+}
