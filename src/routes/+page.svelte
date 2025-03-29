@@ -24,7 +24,7 @@
             <div class="violet bar"></div>
         </div>
         <img class="w-2xs aspect-1/1 object-cover rounded-lg mx-auto" alt="The project logo" src={'/couple_image.jpg'} />
-        <AudioControls audioSrc="/your-audio.mp3"></AudioControls>
+        <AudioControls audioSrc="/song.mp3"></AudioControls>
         <p class="text-center cute-font-regular text-l text-purple-800">
             You will get the best version of me 💖,
         </p>
