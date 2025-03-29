@@ -29,7 +29,7 @@
 
 <div class="controls">
     <button on:click={togglePlay}>
-       <label class="text-amber-500 hover:text-amber-200">{isPlaying ? "Pause" : "Play"}</label>
+       <label class="hover:text-gray-600">{isPlaying ? "Pause" : "Play"}</label>
     </button>
     <div class="volume-slider flex align-middle justify-center gap-2">
         <VolumeOffFill/>
