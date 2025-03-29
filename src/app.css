@@ -104,3 +104,15 @@ body {
         height: 40px;
     }
 }
+
+@media only screen and (max-width:390px) {
+    .header-text {
+        margin : 7px 30px
+    }
+    .bi-chat-right-heart-fill {
+        width: 15px;
+    }
+    .bi-music-player {
+        width: 15px;
+    }
+}
