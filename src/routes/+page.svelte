@@ -1,5 +1,6 @@
 <script>
     import AudioControls from '../components/AudioControls.svelte';
+    import ImageSlider from '../components/ImageSlider.svelte';
 </script>
 
 <div class="music-player flex flex-col justify-items-center w-90/100 xl:w-30/100">
@@ -23,7 +24,7 @@
             <div class="blue bar"></div>
             <div class="violet bar"></div>
         </div>
-        <img class="w-3xs xl:w-2xs shadow-md aspect-1/1 object-cover rounded-lg mx-auto" alt="The project logo" src={'/couple_image.jpg'} />
+        <ImageSlider></ImageSlider>
         <AudioControls audioSrc="/song.mp3"></AudioControls>
         <p class="text-center cute-font-regular text-l text-purple-800">
             You will get the best version of me 💖,

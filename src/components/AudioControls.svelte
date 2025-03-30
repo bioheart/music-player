@@ -4,7 +4,6 @@
     let audio;
     let isPlaying = $state(false);
     let volume = 0.5;
-    // let inputClass = "appearance-none bg-gray-500 outline-dark-700 cursor-pointer overflow-hidden w-full"
     let inputClass = "h-full align-middle justw-48 h-1 bg-gray-200 outline-dark-700 rounded-full appearance-none"
 
     const togglePlay =()=> {
@@ -14,7 +13,6 @@
             audio.play();
         }
         isPlaying = !isPlaying;
-        console.log("isPlaying:", isPlaying);
     }
 
     function handleVolumeChange(event) {
